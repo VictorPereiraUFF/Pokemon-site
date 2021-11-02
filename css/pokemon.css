@@ -1,0 +1,267 @@
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url("../fonts/OpenSans-Bold.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-BoldItalic';
+	src: url("../fonts/OpenSans-BoldItalic.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-ExtraBold';
+	src: url("../fonts/OpenSans-ExtraBold.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-ExtraBoldItalic';
+	src: url("../fonts/OpenSans-Bold.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-Italic';
+	src: url("../fonts/OpenSans-Italic.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-LightItalic';
+	src: url("../fonts/OpenSans-LightItalic.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url("../fonts/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-SemiBold';
+	src: url("../fonts/OpenSans-SemiBold.ttf");
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSans-SemiBoldItalic';
+	src: url("../fonts/OpenSans-SemiBoldItalic.ttf");
+	font-size: 1em;
+}
+header {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+}
+header .container {
+	position: relative;
+}
+header .header-black {
+	background-color: #000;
+	width: 100%;
+	height: 70px;
+}
+header .header-black li a {
+	width: 100%;
+	height: 80px;
+	display: block;
+	margin: 5px;
+}
+#logotipo {
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -20px;
+}
+#menu{
+	margin: 15px -20px;
+}
+#menu li {
+	display: inline-block;
+	right: 25px;
+	font-family: "OpenSans-Bold";
+}
+#menu li a {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+#banner {
+	width: 100%;
+	height: 975px;
+	position: relative;
+	background-image: url("../img/pokemon-banner.png");
+	background-repeat: no-repeat;
+	background-position: 50px 65px;
+}
+#banner h1 {
+	color: #7FFFD4;
+	top: 400px;
+	left: 50px;
+	font-size: 65px;
+	position: relative;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .65);
+
+}
+#banner h1 small{
+	color: #7FFFD4;
+	font-size: 32px;
+	display: block;
+	text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, .65);
+}
+#news h2 {
+	color: #FF0000;
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 50px;
+	text-align: center;
+}
+#news hr{
+	border: #FF0000 solid 5px;
+	width: 2000px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 50px;
+}
+#news .thumbnails h3 {
+	color: #CD3700;
+	font-size: 24px;
+	font-family: 'OpenSans-SemiBold';
+}
+#news .thumbnails time {
+	color: #CDCDC1;
+	font-size: 16px;
+	font-family: 'OpenSans-LightItalic';
+}
+#news .thumbnails .item-inner {
+	padding: 10px;
+}
+#news .thumbnails .item-inner img {
+	width: 100%;
+}
+#btn-news-prev, #btn-news-next {
+	background: none;
+	border: none;
+	color: #FF0000;
+	font-size: 36px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	margin-top: 105px;
+}
+#btn-news-prev {
+	left: 80px;
+}
+#btn-news-next {
+	right: 80px;
+}
+#anime {
+	background-color: #559A7C;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+}
+#anime p {
+	color: #CD3700;
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 65px;
+	margin-top: 25px;
+}
+#anime p small {
+	color: #CD3710;
+	font-family: 'OpenSans-BoldItalic';
+	font-size: 28px;
+	display: block;
+	margin-top: 10px;
+}
+#call-to-action {
+	height: 350px;
+	background-color: #FFF;
+}
+#call-to-action h2 {
+	color: #FF0000;
+	font-family: 'OpenSans-Bold';
+	font-size: 50px;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+#call-to-action hr{
+	border: #FF0000 solid 5px;
+	width: 2000px;
+	margin: 0 auto;
+}
+#call-to-action p{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#call-to-action .btn {
+	min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 3;
+    margin-bottom: 15px;
+}
+#call-to-action .btn-vermelho {
+    color: #FFF;
+    background-color: #FF0000;
+    border-color: #000;
+}
+#call-to-action .btn-branco {
+    color: #000;
+    background-color: #FFF;
+    border-color: #000;
+}
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+footer .row-rodape{
+	height: 300px;
+	background-color: #FF4500;
+}
+footer .row-rodape-base {
+	height: 60px;
+	background-color: #1C1C1C;
+}
+footer .copyright {
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	color: #FF4500;
+}
+footer .copyright p {
+	margin-top: 18px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+footer .pokebolas {
+	margin-top: 25px;
+}
+footer .col-mestre-pokemon h4 {
+	font-family: OpenSans-Bold;
+	font-size: 28px;
+	color: #000;
+	margin-top: 25px;
+}
+footer .col-quem-somos h4 {
+	font-family: OpenSans-Bold;
+	font-size: 28px;
+	color: #000;
+	margin-top: 25px;
+}
+footer .redes-sociais {
+	margin-top: 5px;
+}
+footer .redes-sociais a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+}
